@@ -1,0 +1,118 @@
+* {
+  font-family: "Outfit", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background: hsl(0, 0%, 8%);
+}
+/*  Style guide
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+- Green: hsl(75, 94%, 57%) Location text color
+- White: hsl(0, 0%, 100%) Global text color
+- Grey 700: hsl(0, 0%, 20%) buttons
+- Grey 800: hsl(0, 0%, 12%) .social-links-card color
+- Grey 900: hsl(0, 0%, 8%) background color
+
+### Body Copy
+- Font size (paragraph): 14px
+
+Font weights
+- Weights: 400, 600, 700
+*/
+ul {
+  list-style: none;
+}
+
+.social-links-card {
+  height: 35rem;
+  width: 25rem;
+
+  border-radius: 2rem;
+  border-width: 1px;
+  background: hsl(0, 0%, 12%);
+}
+
+.user-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10em;
+}
+
+/* Spacing & placement*/
+.mx-5px {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ml-2em {
+  margin-left: 2em;
+}
+
+.py-10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pl-2em {
+  padding-left: 2em;
+}
+
+.pl-0em {
+  padding-left: 0em;
+}
+
+.pb-8px {
+  padding-bottom: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/*debug*/
+.debug-border-blk {
+  border: 1px solid black;
+}
+.debug-border-blu {
+  border: 1px solid blue;
+}
+.debug-border-red {
+  border: 1px solid red;
+}
+.debug-border-wht {
+  border: 1px solid white;
+}
+.flex.wrap {
+  border: 1px solid green;
+}
